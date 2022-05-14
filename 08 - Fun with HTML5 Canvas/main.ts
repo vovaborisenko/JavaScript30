@@ -46,7 +46,4 @@ function draw(e: PointerEvent) {
   if (hue >= 360) {
     hue = 0;
   }
-
-  console.log(step, ctx.lineWidth);
-  
 }

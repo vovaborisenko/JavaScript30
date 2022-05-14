@@ -39,5 +39,4 @@ function draw(e) {
     if (hue >= 360) {
         hue = 0;
     }
-    console.log(step, ctx.lineWidth);
 }
